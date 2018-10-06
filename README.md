@@ -5,16 +5,6 @@ Usage: eval [logical expression]
 
 Outputs the truth table for the expression
 
-# Example:
-~ eval "a & b"
-
-a	b	expr
-
-T	T	T
-T	F	F
-F	T	F
-F	F	F
-
 # Syntax:
 
 operands: 
