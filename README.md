@@ -19,11 +19,16 @@ F	F	F
 
 operands: 
 	[A-Za-z]
+	
 operators:
-	x & y; where x,y, in {0,1}
-	x | y; where x,y in {0,1}
-	x > y; where x,y in {0,1}
-	~x; where x in {0,1}
+
+x & y; where x,y, in {0,1}
+	
+x | y; where x,y in {0,1}
+	
+x > y; where x,y in {0,1}
+
+~x; where x in {0,1}
 
 Ex: x | (x & y)
 Ex: x > (x | y)
